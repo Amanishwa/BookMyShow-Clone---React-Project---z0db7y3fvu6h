@@ -33,31 +33,3 @@ const App = () => {
 
 
 export default App;
-
-
-
-// import React from 'react';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import PrivateRoute from './PrivateRoute';
-
-// import Movies from './Movies';
-// import Login from './Login';
-// import SignUp from './SignUp';
-// import SeatBooking from './SeatBooking';
-// import Checkout from './Checkout';
-
-// function App() {
-//   return (
-//     <Router>
-//       <Switch>
-//         <Route exact path="/" component={Movies} />
-//         <Route path="/login" component={Login} />
-//         <Route path="/signup" component={SignUp} />
-//         <PrivateRoute path="/seatbooking" component={SeatBooking} />
-//         <PrivateRoute path="/checkout" component={Checkout} />
-//       </Switch>
-//     </Router>
-//   );
-// }
-
-// export default App;
