@@ -68,9 +68,9 @@ const SeatBooking = () => {
                         <label for="cinema-name" >Cinema</label>
                         <select id="cinema-name" value={selectedCinemaValue} onChange={handleCinemaChange} >
                             <option value="" >Select Cinema</option>
-                            <option value="Wave Lucknow" >Wave Jammu</option>
-                            <option value="Cinepolis Gomti Nagar" >KC PVR</option>
-                            <option value="PVR Singapur Mall, Gomti Nagar" >Movie Time</option>
+                            <option value="Wave Jammu" >Wave Jammu</option>
+                            <option value="KC PVR" >KC PVR</option>
+                            <option value="Movie Time" >Movie Time</option>
                         </select>
                     </div>
                     <div className="booking-date" >
